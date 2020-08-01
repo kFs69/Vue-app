@@ -6,13 +6,15 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+// import api from '../plugins/apisauce';
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
-  }
+  data: () => ({
+    
+  }),
+  async mounted() {
+    
+  } 
 }
 </script>
